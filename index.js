@@ -10,7 +10,7 @@ for (var i = 0; i < button.length; i++) {
                 audio.play();
                 break;
             case "a":
-                var tom2 = new Audio('sounds/tom-2.mpe');
+                var tom2 = new Audio('sounds/tom-2.mp3');
                 tom2.play();
                 break;
             case "s":
@@ -25,12 +25,12 @@ for (var i = 0; i < button.length; i++) {
                 var snare = new Audio('sounds/snare.mp3');
                 snare.play();
                 break;
-            case "j":
+            case "k":
                 var crash = new Audio('sounds/crash.mp3');
                 crash.play();
                 break;
             case "l":
-                var kickBase = new Audio('sounds/kick-base.mp3');
+                var kickBase = new Audio('sounds/kick-bass.mp3');
                 kickBase.play();
     
             default:console.log(buttonInnerHTML);
